@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-strslice-master.flake = false;
+  inputs.src-strslice-master.ref   = "refs/heads/master";
   inputs.src-strslice-master.owner = "PMunch";
-  inputs.src-strslice-master.ref   = "master";
   inputs.src-strslice-master.repo  = "strslice";
   inputs.src-strslice-master.type  = "github";
   
